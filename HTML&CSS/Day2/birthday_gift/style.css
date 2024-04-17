@@ -1,0 +1,28 @@
+body
+{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background-color: #a2d2ff;
+    color: white;
+    text-shadow: 2px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+#myblood{
+    width: 150px;
+    border-radius: 25%;
+    border: 6px solid;
+    border-color: #EFB0C9;
+
+}
+
+h1,h2,h4,h3,p
+{
+    text-shadow: 0px 0px 1px black;
+}
+#header
+{
+    display: flexbox;
+}  
