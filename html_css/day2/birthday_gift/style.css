@@ -3,7 +3,7 @@ body
     text-align: center;
     font-family: 'Happy Monkey', cursive;
     background-color: #a2d2ff;
-    color: white;
+    color:chocolate ;
     text-shadow: 2px;
     display: flex;
     flex-direction: column;
@@ -11,10 +11,9 @@ body
     
 }
 #myblood{
-    width: 150px;
-    border-radius: 25%;
+    width: 250px;
     border: 6px solid;
-    border-color: #EFB0C9;
+    border-color: chocolate;
 
 }
 
@@ -25,4 +24,5 @@ h1,h2,h4,h3,p
 #header
 {
     display: flexbox;
-}  
+}
+  
