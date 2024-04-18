@@ -3,15 +3,15 @@ body
     text-align: center;
     font-family: 'Happy Monkey', cursive;
     background-color: #a2d2ff;
-    color:chocolate ;
+    color: chocolate;
     text-shadow: 2px;
     display: flex;
     flex-direction: column;
     
     
 }
-#myblood{
-    width: 250px;
+.myblood{
+    width: 300px;
     border: 6px solid;
     border-color: chocolate;
 
@@ -25,4 +25,16 @@ h1,h2,h4,h3,p
 {
     display: flexbox;
 }
+.gift-wrap{
+    width: 400px;
+    border: 6px solid;
+    border-color: chocolate;
+
+}
+.gift-wrap:hover
+{
+    width: 500px;
+    background-image: url("images\kid-run.gif");
+ }
+
   
