@@ -2,8 +2,7 @@ body
 {
     text-align: center;
     font-family: 'Happy Monkey', cursive;
-    background-color: #a2d2ff;
-    color: chocolate;
+    background:linear-gradient(rgb(196, 196, 245),pink);
     text-shadow: 2px;
     display: flex;
     flex-direction: column;
@@ -25,16 +24,52 @@ h1,h2,h4,h3,p
 {
     display: flexbox;
 }
-.gift-wrap{
+.gift-img {
+    margin: 0 auto;
     width: 400px;
-    border: 6px solid;
-    border-color: chocolate;
+    height: 400px;
+    border: 6px solid chocolate;
+    border-radius: 10px;
+    background-image: url("images/gift_wrap.jpg");
+    background-size: cover;
+    text-align: center;
+    padding-right: 20px;
+}  
+#happy:hover {
+    background-image: url("images/happy.gif");
+    width: 500px;
+}
+.gift-section
+{
+    margin-top: 50px;
+}
+#kid-run:hover
+{
+    background-image: url("images/kid-run.gif");
+    width: 500px;
 
 }
-.gift-wrap:hover
+#smart:hover
 {
+    background-image: url("images/smart.jpg");
     width: 500px;
-    background-image: url("images\kid-run.gif");
- }
+}
+#footer
+{
+    width: 400px;
+    margin: 40px auto 20px ;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20PX;
+    
+}
+video
+{
+    width: 450px;
+    border: 5px solid;
+    border-color: chocolate;
+    margin-top: 10px;
 
-  
+    
+}
+
