@@ -1,0 +1,43 @@
+.main
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 50px;
+    background: linear-gradient(rgb(215, 215, 240),PINK);
+}
+img
+{
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 2000px;
+    padding-bottom: 10px;
+}
+.permorgan
+{
+    padding-top: 20px;
+    margin: 5px 0px 5px 0px;
+    padding: 0px 5px 0px 5px;
+    box-sizing: border-box;
+}
+#main
+{
+    background-color: rgb(115, 57, 250);
+    border-radius: 60px;
+    color:white;
+    padding: 5px 0px 5px 0px;
+    margin-bottom: 50px;
+}
+#font
+{
+    font-weight: bolder;
+}
+.activities
+{
+    padding:10px 0px 50px 0px;
+    text-wrap: pretty;
+}
+#desc
+{
+    text-align: center;
+}
+
