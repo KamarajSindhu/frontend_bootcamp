@@ -9,11 +9,11 @@ let message="";
 let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el")
 let cardEl=document.getElementById("card-el")
-// let player={
-//     name:"sindhu", chips:145
-// }
-// let playerel;
-// playerel = document.getElementById("player-el").textContent
+let player = {
+    name : "Prith", chips : 145
+}
+let playerEl = player.name + ": $ " +  player.chips;
+
 function getRandomCard()
 {
     let randomCard = Math.floor(Math.random()*13)+1
@@ -63,6 +63,8 @@ for(let i=0;i<cards.length;i++)
 {
     document.getElementById("card-el").innerHTML += cards[i] + " ";
 }
+document.getElementById("player-el").innerHTML = playerEl;
+
 }
 function newCard()
 {
@@ -76,6 +78,5 @@ function newCard()
     
 
 }
-
 
 
