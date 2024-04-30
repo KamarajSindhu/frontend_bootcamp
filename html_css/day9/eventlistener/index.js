@@ -5,10 +5,8 @@ let ulEl = document.getElementById("ul-el")
 inputBtn.addEventListener("click",function()
 {
     myLeads.push(inputEl.value);
-    ulEl.innerHTML +="<li><a target='_blank' href='#'>" +inputEl.value + "</a></li>"
-
-    inputEl.value="";
-    
+    ulEl.innerHTML +=`<li><a target='_blank' href='#'> ${inputEl.value} </a></li>`
+    inputEl.value="";    
 }); 
 // function renderLeads()
 // {
