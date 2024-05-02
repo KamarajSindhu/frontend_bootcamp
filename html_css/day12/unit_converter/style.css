@@ -1,0 +1,17 @@
+.display{
+    width: 550px;
+    height: 729px;
+    padding-top: 126px;
+    left: 696px;
+    gap: 0px;
+    opacity: 0px;
+    background: #1F2937;
+    color: white;
+
+}
+.main{
+    width: 550px;
+    height: 285px;
+    gap: 0px;
+    opacity: 0px;
+}
