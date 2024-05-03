@@ -4,13 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
     <title>JS Challenges</title>
 </head>
 <body>
-    <div class="container main">
-        <h1>Metric/Imperial Unit Conversion</h1>
-        <input type="text" class = "unit">
+    <div class="container display ">
+        <div>
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <input type="text" id = "unit"><br>
+            <button onclick="unitConverter()">Convert</button>
+        </div>
+        <div class="inner">
+            <div class="block">
+                <h3>Length (Meter)</h3>
+                <input type="text" id="length" readonly>
+            </div>
+            <div class="block">
+                <h3>Volume (Liters)</h3>
+                <input type = "text" id="volume"readonly>
+            </div>
+            <div class="block">
+                <h3>Mass (Kilograms)</h3>
+                <input type="text" id="mass"readonly>
+            </div>
+        </div>    
+        
     </div>
-    <script src="index.js"></script>
+
+            
+    </div>
+   
 </body>
 </html>
