@@ -11,6 +11,7 @@ html, body {
     margin: 50px 459px;
     box-sizing: border-box;
     border: 2px solid black;
+    box-shadow: 2px inset;
     padding-bottom: 50px;
     
     
