@@ -1,16 +1,21 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js"
-
-// Challenge: Make sure that add is working by console logging add with two number arguments.
-console.log(add(1,1))
+import { getDatabase, ref, push } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
 
 const appSettings = {
-    databaseURL: "https://playground-c5b18-default-rtdb.europe-west1.firebasedatabase.app"
+    databaseURL: "https://playground-e6721-default-rtdb.firebaseio.com/"
 }
+
+const app = initializeApp(appSettings)
+const database = getDatabase(app)
+const moviesInDB = ref(database, "movies")
 
 const inputFieldEl = document.getElementById("input-field")
 const addButtonEl = document.getElementById("add-button")
 
 addButtonEl.addEventListener("click", function() {
-    let inputValue = inputFieldEl.value    
+    let inputValue = inputFieldEl.value
+    
+    push(moviesInDB, inputValue)
+    
     console.log(`${inputValue} added to database`)
 })
