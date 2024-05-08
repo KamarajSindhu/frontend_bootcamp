@@ -15,5 +15,6 @@ addButtonEl.addEventListener("click", function() {
     let inputValue = inputFieldEl.value
     push(moviesInDB, inputValue)
 
+
     console.log(`${inputValue} added to database`)
 })
