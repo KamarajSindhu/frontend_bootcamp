@@ -1,0 +1,41 @@
+body
+{
+    margin: 50px;
+    padding: auto;
+}
+img
+{
+    width:300px;
+    margin-bottom: 10px;
+}
+.container
+{
+    text-align: center;
+    box-shadow: 2px;
+    margin:5px 5px;
+}
+input{
+    padding: 15px 50px;
+    text-align: center;
+    border: 1px solid;
+    box-shadow: 5px;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+    margin: 5px;
+}
+button{
+    padding: 15px 100px;
+    text-align: center;
+    border: 1px solid;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+    margin-top: 2px;
+    background-color: #AC485A;
+    border-radius: 5px;
+    border: 0px;
+
+}
