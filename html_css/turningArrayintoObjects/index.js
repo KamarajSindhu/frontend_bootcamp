@@ -14,4 +14,4 @@ console.log(scrimbaUsersIDs);
 
 // Create a let variable called 'scrimbaUsersEntries' and use one of Object methods to set it equal to an array with the both the keys and values
 let scrimbaUsersEntries =Object.entries(scrimbaUsers)
-console.log(scrimbaUsersEntries);
+console.log(scrimbaUsersEntries)
