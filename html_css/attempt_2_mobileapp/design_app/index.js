@@ -14,7 +14,17 @@ btn.addEventListener("click", function(){
     let inputvalue = inputEl.value;    
     //push data into db
     push(shopppingListInDB,inputvalue)
-    shoppingList.innerHTML += `<li>${inputvalue}</li>`
-    inputEl.value = "";
+    clearInputField();
+    appendItemToShoppingListEl(inputvalue);
 }
 ) 
+
+function clearInputField(){
+
+    inputEl.value = "";
+
+}
+function appendItemToShoppingListEl(itemvalue)
+{
+    shoppingList.innerHTML += `<li>${itemvalue}</li>`
+}
