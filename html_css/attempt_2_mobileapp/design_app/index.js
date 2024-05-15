@@ -18,13 +18,15 @@ btn.addEventListener("click", function(){
 }
 ) 
 onValue(shopppingListInDB,function(snapshot){
-    let itemsArray = Object.values(snapshot.val())
+    let itemsArray = Object.entries(snapshot.val())
 
-    console.log(snapshot.val())
     clearShoppingListEl()
 
     for (let i = 0; i < itemsArray.length; i++) {
-        appendItemToShoppingListEl(itemsArray[i])
+        let currentItem = itemsArray[i];
+        let currentItemID = currentItem[0];
+        let currentItemValue = currentItem[1];
+        appendItemToShoppingListEl(currentItemValue)
     }   
 })
 function clearShoppingListEl() {
