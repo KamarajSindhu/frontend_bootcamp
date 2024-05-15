@@ -20,7 +20,11 @@ btn.addEventListener("click", function(){
 ) 
 onValue(shopppingListInDB,function(snapshot){
     let itemsArray = Object.value(snapshot.val())
-    console.log(itemsArray)
+    for (let i = 0; i < itemsArray.length; i++) {
+        appendItemToShoppingListEl(itemsArray[i])
+    }
+
+    
 })
 
 function clearInputField(){
