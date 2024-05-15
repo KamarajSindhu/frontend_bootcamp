@@ -39,23 +39,18 @@ function clearInputField(){
     inputEl.value = "";
 
 }
-function appendItemToShoppingListEl(itemvalue)
+function appendItemToShoppingListEl(item)
 {
-    shoppingList.innerHTML += `<li>${itemvalue}</li>`
+    let itemID = item[0]
+    let itemValue = item[1]
+    
+    let newEl = document.createElement("li")
+    
+    newEl.textContent = itemValue
+    
+    shoppingListEl.append(newEl)
 }
 
-// Object into an array//
-// let scrimbaUsers = {
-//     "00": "sindre@scrimba.com",
-//     "01": "per@scrimba.com",
-//     "02": "frode@scrimba.com"
-// }
-// let scrimbaUsersEmails = Object.values(scrimbaUsers);
-// console.log(scrimbaUsersEmails);
-// let scrimbaUsersID = Object.keys(scrimbaUsers);
-// console.log(scrimbaUsersID);
-// let scrimbaUsersEntries = Object.entries(scrimbaUsers);
-// console.log(scrimbaUsersEntries);
 
 
 
