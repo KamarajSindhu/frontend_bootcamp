@@ -4,6 +4,7 @@ html, body {
     font-family: 'Rubik', sans-serif;
     background-color: #EEF0F4;
     color: #432000;
+    user-select: none;
 
 }
 
@@ -63,8 +64,10 @@ ul li {
 li:hover
 {
     background-color: #FFECC7;
+    cursor: pointer;
 }
 button:hover
 {
     background-color:  #432000;
+    cursor: pointer;
 }
