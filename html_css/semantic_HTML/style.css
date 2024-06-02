@@ -4,6 +4,7 @@ body
     color: #2b283a; 
     font-family: 'roboto', sans-serif;
     margin: 0px;
+    
 }
 header
 {
@@ -51,4 +52,7 @@ a:active
 {
     color:#d4b44c;
 
+}
+.main{
+    width: 620px;
 }
