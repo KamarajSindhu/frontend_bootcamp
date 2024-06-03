@@ -4,6 +4,7 @@ body
     color: #2b283a; 
     font-family: 'roboto', sans-serif;
     margin: 0px;
+    width: 630px;
     
 }
 header
@@ -53,6 +54,10 @@ a:active
     color:#d4b44c;
 
 }
-.main{
-    width: 630px;
+.crypto
+{
+    color: whitesmoke;
+    background-color: #5f29a3;
+    width: 100%;
+    padding: 10px;
 }
