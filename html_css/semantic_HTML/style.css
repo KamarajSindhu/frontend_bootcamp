@@ -8,13 +8,15 @@ body
     
 }
 
-header, footer, section
+header,
+footer, 
+section
 {
     padding: 45px 15px;
     margin: 50px 50px;
   
 }
-header
+header, .crypto
 {
   background-color: #5F29A3;
   
@@ -58,7 +60,7 @@ a:hover,a:active
 .crypto
 {
     color: whitesmoke;
-    background-color: #5f29a3;
+    /* background-color: #5f29a3; */
     width: 100%;
     padding: 10px;
     display: flexbox;
