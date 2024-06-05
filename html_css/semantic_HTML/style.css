@@ -4,7 +4,7 @@ body
     color: #2b283a; 
     font-family: 'roboto', sans-serif;
     margin: 0px;
-    width: 630px;
+    display: block;
     
 }
 header
@@ -13,6 +13,14 @@ header
   padding: 45px 15px;
   margin: 50px 50px;
 
+}
+footer
+{
+  color: #5F29A3;
+  padding: 45px 15px;
+  margin: 50px 50px;
+  text-align: center;
+  font-weight: bolder;
 }
 h2{
     font-size: 24px;
@@ -37,7 +45,7 @@ p{
 }
 .main-image
 {
-    width: 100%;
+    width: 50%;
 }
 a
 {
@@ -60,4 +68,12 @@ a:active
     background-color: #5f29a3;
     width: 100%;
     padding: 10px;
+    display: flexbox;
+}
+.feature-image
+{
+    border: 0px;
+    border-radius: 5px;
+    margin: 0px 10px;
+    width: 40%;
 }
