@@ -7,18 +7,21 @@ body
     display: block;
     
 }
+
+header, footer, section
+{
+    padding: 45px 15px;
+    margin: 50px 50px;
+  
+}
 header
 {
   background-color: #5F29A3;
-  padding: 45px 15px;
-  margin: 50px 50px;
-
+  
 }
 footer
 {
   color: #5F29A3;
-  padding: 45px 15px;
-  margin: 50px 50px;
   text-align: center;
   font-weight: bolder;
 }
@@ -35,11 +38,6 @@ h1
    font-size: 31px;
     color: whitesmoke;
 }
-section
-{
-    padding: 45px,0;
-    margin: 50px 50px;
- }
 p{
     font-size: 16px;
 }
@@ -53,14 +51,9 @@ a
     text-decoration: none; 
     border-bottom:1px dotted;
 }
-a:hover
+a:hover,a:active
 {
     color:#d4b44c;
-}
-a:active
-{
-    color:#d4b44c;
-
 }
 .crypto
 {
