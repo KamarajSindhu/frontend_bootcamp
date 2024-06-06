@@ -73,39 +73,41 @@ a:hover,a:active
     margin: 0px 10px;
     width: 40%;
 }
-.main button
-{
+
+
+.btn-dark,
+.btn-mid,
+.btn-light{
+    padding: 10px 19px;
+    border-radius: 4.6px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.btn-dark{
     background-color: #5f29a3;
     color: whitesmoke;
-    padding: 10px 19px;
-    border-radius: 4.6px;
-    font-weight: 500px;
-    border-style: none;
 }
-.crypto button
-{
-    color: #5f29a3;
-    background-color: whitesmoke;
-    padding: 10px 19px;
-    border-radius: 4.6px;
-    font-weight: 500px;
-    border-style: none;
 
-}
-#more-info
-{
-    color: #5f29a3;
+.btn-mid{
     background-color: #f0e0ff;
-    padding: 10px 19px;
-    border-radius: 4.6px;
-    font-weight: 500; 
-    border-style: none;
-
+    color: #5f29a3;
 }
-button:hover, #more-info:hover
-{
+
+.btn-light{
+    background-color: whitesmoke;
+    color: #5f29a3;
+}
+
+.btn-dark:hover,
+.btn-mid:hover,
+.btn-light:hover,
+.btn-dark:active,
+.btn-mid:active,
+.btn-light:active{
     background-color: #f3e885;
     color: #2b283a;
 }
+
 
 
