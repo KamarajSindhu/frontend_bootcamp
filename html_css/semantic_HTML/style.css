@@ -82,6 +82,8 @@ a:hover,a:active
     border-radius: 4.6px;
     font-weight: 500;
     text-decoration: none;
+    margin: 10px 2px;
+    display: inline-block
 }
 
 .btn-dark{
