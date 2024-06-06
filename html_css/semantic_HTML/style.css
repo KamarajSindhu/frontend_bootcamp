@@ -48,12 +48,12 @@ p{
 {
     width: 50%;
 }
-a
+/* a
 {
     color: #ef5839;
     text-decoration: none; 
     border-bottom:1px dotted;
-}
+} */
 a:hover,a:active
 {
     color:#d4b44c;
@@ -73,3 +73,39 @@ a:hover,a:active
     margin: 0px 10px;
     width: 40%;
 }
+.main button
+{
+    background-color: #5f29a3;
+    color: whitesmoke;
+    padding: 10px 19px;
+    border-radius: 4.6px;
+    font-weight: 500px;
+    border-style: none;
+}
+.crypto button
+{
+    color: #5f29a3;
+    background-color: whitesmoke;
+    padding: 10px 19px;
+    border-radius: 4.6px;
+    font-weight: 500px;
+    border-style: none;
+
+}
+#more-info
+{
+    color: #5f29a3;
+    background-color: #f0e0ff;
+    padding: 10px 19px;
+    border-radius: 4.6px;
+    font-weight: 500; 
+    border-style: none;
+
+}
+button:hover, #more-info:hover
+{
+    background-color: #f3e885;
+    color: #2b283a;
+}
+
+
