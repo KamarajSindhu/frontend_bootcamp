@@ -5,6 +5,7 @@ body
     font-family: 'roboto', sans-serif;
     margin: 0px;
     display: block;
+    flex-wrap: wrap;
     
 }
 
@@ -12,8 +13,8 @@ header,
 footer, 
 section
 {
-    padding: 45px 15px;
-    margin: 50px 50px;
+    padding: 45px 25px;
+    margin: 10px 30px;
   
 }
 header, .crypto
@@ -46,7 +47,7 @@ p{
 }
 .main-image
 {
-    width: 50%;
+    width: 100%;
 }
 /* a
 {
