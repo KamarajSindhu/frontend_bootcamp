@@ -48,3 +48,20 @@ a:hover
 {
 color: #131313;
 }
+.header, .middle, .footer{
+    padding: 50px 0;
+}
+
+.header
+{
+    background-color: #d7d7d7;
+}
+.middle
+{
+    background-color: #ffeaea;
+}
+.footer
+{
+
+    background-color: #eaf9ff;
+}
