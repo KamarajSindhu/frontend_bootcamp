@@ -4,6 +4,7 @@ body
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
+    
 }
 
 
@@ -14,7 +15,23 @@ body
 }
 img
 {
-    border-radius: 150px;
+    border-radius: 100px;
     border: solid 1px black;
 }
-  
+h1,h2{
+    font-weight: 300;
+}
+h1
+{
+    font-size: 60px;
+}
+h2{
+    font-size: 42px;
+}
+h3{
+    font-size: 36px;
+}
+.small-text
+{
+    font-size: 16px;
+}
