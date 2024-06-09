@@ -4,14 +4,15 @@ body
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
+    text-wrap: balance;
     
 }
 
 
 .container
 {
-    width: 570px;
-    margin: 0 auto;
+    width: auto;
+    margin: auto;
 }
 img
 {
@@ -39,7 +40,7 @@ h3{
 }
 section
 {
-    margin: 100px 0px;
+    margin: auto;
 }
 a{
     color: #99D930;
@@ -52,16 +53,13 @@ color: #131313;
     padding: 50px 0;
 }
 
-.header
+.header, .footer
 {
-    background-color: #d7d7d7;
+    background-color: #252525;
+    color: #ffF;
 }
 .middle
 {
-    background-color: #ffeaea;
-}
-.footer
-{
-
-    background-color: #eaf9ff;
+    background-color: #fff;
+    color:#252525;
 }
