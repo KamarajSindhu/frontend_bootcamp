@@ -63,3 +63,18 @@ color: #131313;
     background-color: #fff;
     color:#252525;
 }
+.btn{
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: larger; 
+    font-weight: bold; 
+    background-color: #99D930;
+    color: #252525; 
+    border: 0px; 
+    text-decoration: none;
+}
+.btn:hover
+{
+    background-color: #252525;
+    color: #fff;
+}
