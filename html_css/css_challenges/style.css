@@ -11,7 +11,7 @@ body
 
 .container
 {
-    width: auto;
+    display: flexbox;
     margin: auto;
 }
 img
@@ -77,4 +77,10 @@ color: #131313;
 {
     background-color: #252525;
     color: #fff;
+}
+hr{
+    width: 1;
+    color:#c4c4c4;
+    margin: 0px 420px;
+    display: flex;
 }
