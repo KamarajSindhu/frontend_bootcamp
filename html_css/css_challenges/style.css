@@ -1,86 +1,107 @@
-body
-{
+body {
     text-align: center;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
     font-weight: 300;
-    font-style: normal;
-    text-wrap: balance;
-    
+    margin: 0;
 }
 
+.container {
+    width: 570px;
+    margin: 0 auto;
+}
 
-.container
-{
-    display: flexbox;
-    margin: auto;
+h1,
+h2 {
+    font-weight: 300; 
 }
-img
-{
-    border-radius: 100px;
-    border: solid 1px black;
+
+h1 {
+    font-size: 60px;
+    margin-top: 0;
 }
-h1,h2{
-    font-weight: 300;
+
+h2 {
+    font-size: 42px;
+    margin-top: 0;
+    border-top: solid 1px #c4c4c4;
+    border-bottom: solid 1px #c4c4c4;
     
+    padding: 20px 0;
+    margin-bottom: 20px;
 }
-h1
-{
+
+h3 {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.accent-text {
+    display: block;
+}
+
+h1 .accent-text {
+    font-size: 80px;
+}
+
+h2 .accent-text {
     font-size: 60px;
 }
-h2{
-    font-size: 42px;
-}
-h3{
-    font-size: 40px;
+
+.accent-text,
+.name,
+time {
     font-weight: 900;
-}
-.small-text
-{
-    font-size: 16px;
-}
-section
-{
-    margin: auto;
-}
-a{
     color: #99D930;
 }
-a:hover
-{
-color: #131313;
-}
-.header, .middle, .footer{
-    padding: 25px 0px 50px 0px;
+
+p {
+    margin-bottom: 0;
 }
 
-.header, .footer
-{
-    background-color: #252525;
-    color: #ffF;
+a {
+    color: #99D930;
+    font-weight: 900;
 }
-.middle
-{
-    background-color: #fff;
-    color:#252525;
+
+a:hover,
+a:focus {
+    color: #131313;
 }
-.btn{
-    display: inline-block;
-    padding: 10px 25px;
-    font-size: larger; 
-    font-weight: bold; 
-    background-color: #99D930;
-    color: #252525; 
-    border: 0px; 
-    text-decoration: none;
+
+.small-text {
+    font-size: 16px;
+    margin-top: 5px;
+} 
+
+header,
+section {
+    padding: 100px 0;
 }
-.btn:hover
-{
-    background-color: #252525;
+
+.inverse {
     color: #fff;
+    background: #252525;
 }
-hr{
-    width: 1;
-    color:#c4c4c4;
-    margin: 0px 420px;
-    display: flex;
+
+.inverse .btn:hover,
+.inverse .btn:focus {
+    background: #fff;
+    color: #252525;
+}
+
+.btn {
+    display: inline-block;
+    color: #252525;
+    text-decoration: none;
+    background: #99D930;
+    padding: 10px 25px;
+    margin-top: 25px;
+}
+
+.btn:hover,
+.btn:focus {
+    background: #252525;
+    color: #fff;
 }
