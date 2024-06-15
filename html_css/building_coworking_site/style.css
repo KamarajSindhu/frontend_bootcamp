@@ -51,3 +51,13 @@ h1
     margin-left: auto;
 }
 
+.banner-img
+{
+    position: absolute;
+    background-color: #cd6858;
+    color: whitesmoke;
+    bottom: 363px;
+    padding: 10px;
+
+    
+}
