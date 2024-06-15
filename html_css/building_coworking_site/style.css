@@ -56,8 +56,28 @@ h1
     position: absolute;
     background-color: #cd6858;
     color: whitesmoke;
-    bottom: 363px;
     padding: 10px;
-
-    
+    top:0px;
+    left: 0px;   
+}
+.item
+{
+    position: relative;
+}
+button
+{
+    background-color: #cd6858;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    margin-left: 25px;
+    font-weight: bolder;
+    font-size: larger;
+}
+.caption
+{
+    display: flex;
+    margin: 0px, 25px;
+    justify-content: space-between;
+    gap: 20px;
 }
