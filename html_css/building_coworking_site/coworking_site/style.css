@@ -79,12 +79,10 @@ button {
 }
 .chatbox-img
 {
-    position: relative;
-    bottom:0;
-    right: 0;
-    left: 0;
+    position: fixed;
+    left: auto;
     top:0;
-    margin-left: 80%;
+    margin-left: 90%;
 
 }
 
