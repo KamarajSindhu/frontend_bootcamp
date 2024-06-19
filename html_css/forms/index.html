@@ -19,20 +19,46 @@
                     id="astronautName" 
                     name="astronautName"
                     placeholder="Neil Armstrong"
+                    required
+                    minlength="2"
+                    maxlength="10"
                     >
+            <label for="astronautAge">Age</label>
+             <input 
+                    type="text" 
+                    id="astronautAge" 
+                    name="astronautAge"
+                    placeholder="Age"
+                    required
+                    min="21"
+                    max="120"
+                    >
+            <label for="astronautCountrycode">Country Code</label>
+             <input 
+                    type="text" 
+                    id="astronautCountrycode" 
+                    name="astronautCountrycode"
+                    placeholder="Countrycode"
+                    required
+                    pattern="[A-Za-z]{3}"                    
+                    >
+            <label for="astronautEmail">Email</label>
                 <input 
                     type="email"
                     id="astronautEmail"
                     name="astronautEmail"
                     placeholder="NeilArmstrong@nasa.com"
+                    required
                     >
+            <label for="password">Password</label>
                 <input 
                     type="password"
                     id="astronautPwd"
                     name="astronautPwd"
                     placeholder="******"
+                    required
                     >
-
+                <button type="submit">SUBMIT</button>
             </form>
         </main>
         <script src="index.js"></script>
