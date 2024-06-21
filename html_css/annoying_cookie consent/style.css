@@ -154,3 +154,12 @@ input{
     line-height: 23px;
     margin-bottom: 0;
 }
+form
+{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    margin: 0 auto;
+}
+
+    
