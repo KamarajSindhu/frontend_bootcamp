@@ -10,4 +10,7 @@ loginForm.addEventListener('submit', function(e){
     const email = loginFormData.get('astronautEmail')
     console.log(email)
 
+    const password= loginFormData.get('astronautPwd')
+    console.log(password)
+
 })
