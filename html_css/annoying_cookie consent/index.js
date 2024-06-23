@@ -38,6 +38,6 @@ setTimeout(function(){
         <img src="assets/pirate.gif">
     </div>
 ` 
-},1500)
+},3000)
 })
 
