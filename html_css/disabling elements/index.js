@@ -9,6 +9,7 @@ decrement.addEventListener('click', function(){
     quantity--
     if (quantity === 0){
         decrement.disabled = true
+        cartBtn.disabled=true
     }     
     quantityDisplay.innerText = quantity
 })
