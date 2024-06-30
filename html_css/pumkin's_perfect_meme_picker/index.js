@@ -16,12 +16,22 @@ function getEmotionsArray(cats){
 
 
 function renderEmotionsRadios(cats){
-    let radioItems =``
-    const emotions = getEmotionsArray(cats);
-    for (let emotion of emotions){
-        radioItems += `<p>${emotion}</p>`
+    let radioItems =``    
+        const emotions = getEmotionsArray(cats);
+        for (let emotion of emotions){
+            radioItems+=`
+            <div class ="radio">
+            <label for="{$emotion}">${emotion}</label>
+            <input 
+                    type = "radio" 
+                    name= "emotions" 
+                    id= "${emotion}"
+                    value= "${emotion}"
+            >
+    </div>
+    `
     }
     emotionRadios.innerHTML = radioItems;
+        
 }
-
 renderEmotionsRadios(catsData)

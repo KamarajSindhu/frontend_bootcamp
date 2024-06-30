@@ -1,4 +1,5 @@
-export const catsData = [
+export 
+const catsData = [
     {
         emotionTags: ["moody"],
         isGif: false,
