@@ -5,12 +5,13 @@ const getImageBtn = document.getElementById('get-image-btn')
 
 getImageBtn.addEventListener('click', getMatchingCatsArray)
 
-function getMatchingCatsArray(e){
+function getMatchingCatsArray(){
 
-    const getMatchingCatsArray = document.querySelector('input[type="radio"]:checked').value
-    console.log(getMatchingCatsArray)
+    if(document.querySelector('input[type="radio"]:checked')){
 
-}
+        const selectedEmotions = document.querySelector('input[type="radio"]:checked').value
+        console.log(selectedEmotions)    
+}}
 
 
    
