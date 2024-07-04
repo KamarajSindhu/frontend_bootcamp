@@ -10,7 +10,7 @@ function getMatchingCatsArray(){
     if(document.querySelector('input[type="radio"]:checked')){
 
         const selectedEmotions = document.querySelector('input[type="radio"]:checked').value
-        console.log(selectedEmotions)    
+        console.log(selectedEmotions)
 }}
 
 
