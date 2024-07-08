@@ -8,15 +8,23 @@ getImageBtn.addEventListener('click', getMatchingCatsArray)
 
 function getMatchingCatsArray(){
 
-    const isGif = gifsOnlyOption.checked
-    console.log(isGif)
-        
-
+    const isGif = gifsOnlyOption.checked;       
     if(document.querySelector('input[type="radio"]:checked')){
-
         const selectedEmotions = document.querySelector('input[type="radio"]:checked').value
-        console.log(selectedEmotions)
-}}
+        const isGif = gifsOnlyOption.checked
+        
+        const matchingCatsArray = catsData.filter(function(cat){
+            if(isGif){
+                return cat.emotionTags.includes(selectedEmotions) && cat.isGif
+            }
+            else{
+                return cat.emotionTags.includes(selectedEmotions)
+            }
+           
+        })
+        return matchingCatsArray
+    }  
+}
 
     
 
@@ -37,7 +45,18 @@ emotionRadios.addEventListener('change',highlightCheckedOption)
 
  }
 
- 
+ function getSingleCatObject()
+ {
+    const catsArray = getMatchingCatsArray();
+    if(catsArray.length===1){
+        console.log(catsArray[0])
+    }
+ }
+
+ function renderCat(){
+    getSingleCatObject()
+
+ }
 
 
 function getEmotionsArray(cats){
