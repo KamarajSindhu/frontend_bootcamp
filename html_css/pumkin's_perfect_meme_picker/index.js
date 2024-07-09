@@ -58,8 +58,17 @@ emotionRadios.addEventListener('change',highlightCheckedOption)
  }
 
  function renderCat(){
-    getSingleCatObject()
 
+    const catObject = getSingleCatObject()
+    
+    memeModalInner.innerHTML = `
+    <img 
+    class="cat-img" 
+    src="assets/${catObject.image}"
+    alt="${catObject.alt}"
+    >
+    `
+    memeModal.style.display = 'flex'
  }
 
 
