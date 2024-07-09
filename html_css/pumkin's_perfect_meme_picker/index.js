@@ -51,6 +51,10 @@ emotionRadios.addEventListener('change',highlightCheckedOption)
     if(catsArray.length===1){
         console.log(catsArray[0])
     }
+    else {
+        const randomNumber = Math.floor(Math.random() * catsArray.length)
+        return(catsArray[randomNumber])
+    }
  }
 
  function renderCat(){
