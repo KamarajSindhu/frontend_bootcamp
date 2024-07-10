@@ -8,16 +8,8 @@ const memeModal = document.getElementById('meme-modal')
 const memeModalCloseBtn = document.getElementById('meme-modal-close-btn')
 
 getImageBtn.addEventListener('click', getMatchingCatsArray)
-getImageBtn.addEventListener('click', renderCat)
-
-
 memeModalCloseBtn.addEventListener('click', closeModal)
-
-function closeModal(){
-    memeModal.style.display = 'none'
-}
-
-
+getImageBtn.addEventListener('click', renderCat)
 
 function getMatchingCatsArray(){
 
@@ -38,6 +30,27 @@ function getMatchingCatsArray(){
         return matchingCatsArray
     }  
 }
+
+function closeModal(){
+    memeModal.style.display = 'none'
+}
+function renderCat(){
+
+    const catObject = getSingleCatObject()
+    
+    memeModalInner.innerHTML = `
+    <img 
+    class="cat-img" 
+    src="./assets/${catObject.image}"
+    alt="${catObject.alt}"
+    >
+    `
+    memeModal.style.display = 'flex'
+    
+   
+ }
+
+
 
     
 
@@ -70,22 +83,7 @@ emotionRadios.addEventListener('change',highlightCheckedOption)
     }
  }
 
- function renderCat(){
-
-    const catObject = getSingleCatObject()
-    
-    memeModalInner.innerHTML = `
-    <img 
-    class="cat-img" 
-    src="./assets/${catObject.image}"
-    alt="${catObject.alt}"
-    >
-    `
-    memeModal.style.display = 'flex'
-    
-   
- }
-
+ 
 
 function getEmotionsArray(cats){
     const emotionsArray = []; 
