@@ -10,12 +10,9 @@ tweetBtn.addEventListener('click', function(){
     console.log(tweetInput.value)
     })
 
-function getfeedHTML(){
+function getFeedHTML(){
     let feedHtml = ``;
-    let tweet = document.getElementById(tweetsData)
-
-    // for(let tweet of tweetsData)
-    tweetsData.forEach(function(feedHtml){
+    tweetsData.forEach(function(tweet){
         feedHtml+=`<div class="tweet">
     <div class="tweet-inner">
         <img src="${tweet.profilePic}" class="profile-pic">
@@ -41,7 +38,11 @@ function getfeedHTML(){
     return feedHtml
 }
 
-console.log(getfeedHTML())
+function render()
+{
+    document.getElementById('feed').innerHTML=getFeedHTML();
+}
+render()
     
         
     
