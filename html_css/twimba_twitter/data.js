@@ -4,7 +4,7 @@ const tweetsData = [
         handle: `@TrollBot66756542 💎`,
         profilePic: `assets/troll.jpg`,
         likes: 27,
-        retweets: 10,
+        retweets: 10,            
         tweetText: `Buy Bitcoin, ETH Make 💰💰💰 low low prices. 
             Guaranteed return on investment. HMU DMs open!!`,
         replies: [],
