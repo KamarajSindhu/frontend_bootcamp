@@ -25,7 +25,7 @@ function getFeedHTML(){
                     ${tweet.replies.length}
                 </span>
                 <span class="tweet-detail">
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-heart"></i>
                     ${tweet.likes}
                 </span>
                 <span class="tweet-detail">
