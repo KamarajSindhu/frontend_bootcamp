@@ -1,171 +1,37 @@
-export 
-const catsData = [
-    {
-        emotionTags: ["moody"],
-        isGif: false,
-        image: "angry.jpeg",
-        alt: "A cat looking moody",
-    },
-    {
-        emotionTags: ["moody", "insomniac"],
-        isGif: false,
-        image: "angry2.jpeg",
-        alt: "A cat looking moody",
-    },
-    {
-        emotionTags: ["moody"],
-        isGif: false,
-        image: "angry3.jpeg",
-        alt: "A cat looking moody",
-    },
-    {
-        emotionTags: ["confused", "sad"],
-        isGif: false,
-        image: "confused.jpeg",
-        alt: "A cat looking confused",
-    },
-    {
-        emotionTags: ["dominant", "moody"],
-        isGif: false,
-        image: "dominant.jpeg",
-        alt: "A cat looking dominant",
-    },
-    {
-        emotionTags: ["happy", "relaxed"],
-        isGif: false,
-        image: "happy.jpeg",
-        alt: "A cat looking happy",
-    },
-    {
-        emotionTags: ["hungry"],
-        isGif: false,
-        image: "hungry.jpeg",
-        alt: "A cat looking hungry",
-    },
-    {
-        emotionTags: ["hungry"],
-        isGif: false,
-        image: "hungry1.jpeg",
-        alt: "A cat looking hungry",
-    },
-    {
-        emotionTags: ["insomniac"],
-        isGif: false,
-        image: "insomnia.jpeg",
-        alt: "A cat looking insomniac",
-    },
-    {
-        emotionTags: ["insomniac"],
-        isGif: false,
-        image: "insomnia1.jpeg",
-        alt: "A cat looking insomniac",
-    },
-    {
-        emotionTags: ["relaxed"],
-        isGif: false,
-        image: "lazy.jpeg",
-        alt: "A cat looking lazy",
-    },
-    {
-        emotionTags: ["scared"],
-        isGif: false,
-        image: "nervous.jpeg",
-        alt: "A cat looking nervous",
-    },
-    {
-        emotionTags: ["sad"],
-        isGif: false,
-        image: "sad.jpeg",
-        alt: "A cat looking sad",
-    },
-    {
-        emotionTags: ["sad", "moody"],
-        isGif: false,
-        image: "sad1.jpeg",
-        alt: "A cat looking sad",
-    },
-    {
-        emotionTags: ["moody"],
-        isGif: true,
-        image: "angry.gif",
-        alt: "A cat looking moody",
-    },
-    {
-        emotionTags: ["moody"],
-        isGif: true,
-        image: "angry2.gif",
-        alt: "A cat looking angry",
-    },
-    {
-        emotionTags: ["confused"],
-        isGif: true,
-        image: "confused2.gif",
-        alt: "A cat looking confused",
-    },
-    {
-        emotionTags: ["dominant"],
-        isGif: true,
-        image: "dominant.gif",
-        alt: "A cat looking dominant",
-    },
-    {
-        emotionTags: ["happy"],
-        isGif: true,
-        image: "happy.gif",
-        alt: "A cat looking happy",
-    },
-    {
-        emotionTags: ["hungry", "sad", "confused"],
-        isGif: true,
-        image: "confused.gif",
-        alt: "A cat looking hungry",
-    },
-    {
-        emotionTags: ["hungry"],
-        isGif: true,
-        image: "hungry.gif",
-        alt: "A cat looking hungry",
-    },
-    {
-        emotionTags: ["hungry"],
-        isGif: true,
-        image: "hungry2.gif",
-        alt: "A cat looking hungry",
-    },
-    {
-        emotionTags: ["insomniac", "scared"],
-        isGif: true,
-        image: "insomnia2.gif",
-        alt: "A cat looking insomniac",
-    },
-    {
-        emotionTags: ["relaxed"],
-        isGif: true,
-        image: "lazy.gif",
-        alt: "A cat looking relaxed",
-    },
-    {
-        emotionTags: ["relaxed"],
-        isGif: true,
-        image: "relaxed2.gif",
-        alt: "A cat looking relaxed",
-    },
-    {
-        emotionTags: ["scared", "sad"],
-        isGif: true,
-        image: "nervous.gif",
-        alt: "A cat looking nervous",
-    },
-    {
-        emotionTags: ["scared"],
-        isGif: true,
-        image: "nervous2.gif",
-        alt: "A cat looking scared",
-    },
-    {
-        emotionTags: ["sad"],
-        isGif: true,
-        image: "sad.gif",
-        alt: "A cat looking sad",
-    },
-]
+Matress_TFK_II_V3 (5)
+Mattress_MSS_MF_V1 (13)
+Mattress_MSS_MF_V2 (13)
+Mattress_MSS_MF_V3 (13)
+Mattress_MSS_TN_V1 (13)
+Mattress_MSS_TN_V2 (13)
+Mattress_MSS_TN_V3 (13)
+Mattress_MSS_TN_V4 (13)
+Mattress_St_MF_V1 (15)
+Mattress_St_MF_V2 (15)
+Mattress_St_MF_V3 (15)
+Mattress_St_MF_V4 (15)
+Mattress_St_TN_18_V1 (8)
+Mattress_St_TN_18_V2 (8)
+Mattress_St_TN_V1 (15)	
+Mattress_St_TN_V2 (15)
+Mattress_St_TN_V3 (15)	
+Mattress_St_TN_V4 (15)
+Mattress_TFK II_V2 (5)
+Mattress_TFK_II_V1 (5)
+Mattress_TFK_TN_V1 (7)
+Mattress_TFK_TN_V2 (7) - karthick
+Mattress_TFK_TN_V3  - karthick
+Topper_G_MF_V1 (12)
+Topper_G_MF_V2 (12)
+Topper_G_MF_V3 (12)
+Topper_G_TN_V1 (12)
+Topper_G_TN_V2 (12)
+Topper_G_TN_V3 (12)
+Topper_KS_MF_V1 (14)
+Topper_KS_MF_V2 (14)
+Topper_KS_MF_V3 (14)
+Topper_KS_MF_V4 (14)
+Topper_KS_TN_V1 (14)
+Topper_KS_TN_V2 (14)
+Topper_KS_TN_V3 (14)
+Topper_KS_TN_V4 (14)
