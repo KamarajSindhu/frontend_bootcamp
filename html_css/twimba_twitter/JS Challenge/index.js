@@ -7,15 +7,7 @@ document.addEventListener('click', function(e) {
     {
         console.log(e.target.dataset.heart)
 
-    }
-
-/*
-Challenge:
-2. Make clicking on the heart icon log out
-   the id of the image.
-*/
-
-  
+    }  
 
 })
 
