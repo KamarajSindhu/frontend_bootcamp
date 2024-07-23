@@ -6,9 +6,15 @@ const tweetInput = document.getElementById('tweet-input')
 const tweetBtn = document.getElementById('tweet-btn')
 
 tweetBtn.addEventListener('click', function(){
-
     console.log(tweetInput.value)
     })
+
+document.addEventListener('click', function(e){
+   
+    console.log(e.target.dataset)
+    
+
+})
 
 function getFeedHTML(){
     let feedHtml = ``;
@@ -21,19 +27,22 @@ function getFeedHTML(){
             <p class="tweet-text">${tweet.tweetText}</p>
             <div class="tweet-details">
                 <span class="tweet-detail">
-                    <i class="fa-regular fa-comment-dots"></i>
+                    <i class="fa-regular fa-comment-dots"
+                    data-reply = "${tweet.uuid}">
+                    </i>
                     ${tweet.replies.length}
-                    data-reply = "${tweet.uuid}"
                 </span>
                 <span class="tweet-detail">
-                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-heart"
+                data-heart = "${tweet.uuid}">
+                </i>
                     ${tweet.likes}
-                data-heart = "${tweet.uuid}"
                 </span>
                 <span class="tweet-detail">
-                <i class="fa-solid fa-retweet"></i>
+                <i class="fa-solid fa-retweet"
+                data-retweet ="${tweet.uuid}">
+                </i>
                     ${tweet.retweets}
-                data-retweet ="${tweet.uuid}"
                 </span>
             </div>   
         </div>            
