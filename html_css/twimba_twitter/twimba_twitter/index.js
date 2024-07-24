@@ -16,6 +16,11 @@ document.addEventListener('click', function(e){
 
 })
 
+function handleLikeClick(retweet){
+
+    console.log(retweet)
+}
+handleLikeClick()
 function getFeedHTML(){
     let feedHtml = ``;
     tweetsData.forEach(function(tweet){
