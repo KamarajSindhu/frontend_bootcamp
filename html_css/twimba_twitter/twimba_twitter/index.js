@@ -11,7 +11,7 @@ tweetBtn.addEventListener('click', function(){
 
 document.addEventListener('click', function(e){
    
-    console.log(e.target.dataset)
+    console.log(e.target.dataset.like)
     
 
 })
@@ -34,7 +34,7 @@ function getFeedHTML(){
                 </span>
                 <span class="tweet-detail">
                 <i class="fa-solid fa-heart"
-                data-heart = "${tweet.uuid}">
+                data-like = "${tweet.uuid}">
                 </i>
                     ${tweet.likes}
                 </span>
