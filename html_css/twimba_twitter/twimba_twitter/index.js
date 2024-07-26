@@ -10,17 +10,19 @@ tweetBtn.addEventListener('click', function(){
     })
 
 document.addEventListener('click', function(e){
-   
-    console.log(e.target.dataset.like)
+
+        if(e.target.dataset.like){
+           handleLikeClick(e.target.dataset.like) 
+        }
     
 
 })
 
-function handleLikeClick(retweet){
+function handleLikeClick(tweetId){
 
-    console.log(retweet)
+    console.log(tweetId)
 }
-handleLikeClick()
+
 function getFeedHTML(){
     let feedHtml = ``;
     tweetsData.forEach(function(tweet){
