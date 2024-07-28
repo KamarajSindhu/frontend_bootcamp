@@ -24,16 +24,20 @@ function handleLikeClick(tweetId){
         return tweet.uuid === tweetId
     })[0]
 
-    if(targetTweetObj.isLiked){
-        targetTweetObj.likes--
-        targetTweetObj.isLiked=false
-    }
-    else
-    {
-        targetTweetObj.likes++
-        targetTweetObj.isLiked=true
-    }
-    // console.log(tweetsData)
+    targetTweetObj.isLiked = !targetTweetObj.isLiked
+    targetTweetObj.likes += targetTweetObj.isLiked ? 1 : -1
+
+
+    // if(targetTweetObj.isLiked){
+    //     targetTweetObj.likes--
+    //     targetTweetObj.isLiked=false
+    // }
+    // else
+    // {
+    //     targetTweetObj.likes++
+    //     targetTweetObj.isLiked=true
+    // }
+    // // console.log(tweetsData)
     render();
 }
 
