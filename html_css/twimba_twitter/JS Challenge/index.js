@@ -34,7 +34,7 @@ function render(){
 			<img src="dino2.jpeg" alt="Man in front of dinosaur">
 			<div class="social-icons-container">
 				<i class="fa-solid fa-heart ${heartClass}" data-heart="image-1"></i>
-				<i class="fa-solid fa-share ${shareClass}" data-share="image-1"></i>
+				<i class="fa-solid fa-share ${shareClass}" data-share="image-2"></i>
 			</div>
     `
     galleryContainer.innerHTML = imageHtml
