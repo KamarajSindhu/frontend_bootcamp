@@ -66,7 +66,9 @@ function getFeedHTML(){
 
         }
 
-
+        if(tweet.replies.length>0){
+            console.log(tweet.uuid)
+        }
 
 
 
