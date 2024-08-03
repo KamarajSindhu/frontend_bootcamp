@@ -1,6 +1,3 @@
-
-
-
 import { tweetsData } from "./data.js";
 const tweetInput = document.getElementById('tweet-input')
 const tweetBtn = document.getElementById('tweet-btn')
@@ -17,7 +14,9 @@ document.addEventListener('click', function(e){
         else if(e.target.dataset.retweet){
             handleRetweetClick(e.target.dataset.retweet)
         }
-        render()
+        else if(e.target.dataset.reply){
+            handleReplyClick(e.target.dataset.reply)
+        }
 
 })
 
@@ -47,7 +46,7 @@ function handleRetweetClick(tweetId){
 render()
 }
 
-function handleReplyClick(tweetId){
+function handleReplyClick(replyId){
 
     document.getElementById(`replies-${replyId}`).classList.toggle('hidden')
 
@@ -119,7 +118,7 @@ function getFeedHTML(){
             </div>   
         </div>            
     </div>
-<div id="replies-${tweet.uuid}">
+<div class='hidden'id="replies-${tweet.uuid}">
         ${repliesHtml}
     </div>   
 </div>`
