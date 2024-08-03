@@ -55,6 +55,7 @@ function handleReplyClick(replyId){
 
 function handleTweetBtnClicked(){
     
+    if (tweetInput.value){
     tweetsData.unshift({
         handle: `@Scrimba`,
         profilePic: `assets/scrimbalogo.png`,
@@ -67,6 +68,7 @@ function handleTweetBtnClicked(){
         uuid: uuidv4()
     })
     render()
+}
 }
 
 function getFeedHTML(){
