@@ -49,13 +49,7 @@ function renderCat(){
     
    
  }
-
-
-
-    
-
-        
-
+       
 
 emotionRadios.addEventListener('change',highlightCheckedOption)
  function highlightCheckedOption(e){
