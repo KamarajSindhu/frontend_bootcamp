@@ -10,7 +10,7 @@ document.addEventListener('click', function(e){
         }
         else if(e.target.dataset.retweet){
             handleRetweetClick(e.target.dataset.retweet)
-        }
+        } 
         else if(e.target.dataset.reply){
             handleReplyClick(e.target.dataset.reply)
         }
@@ -105,7 +105,7 @@ function getFeedHTML(){
         `
             })    
         }
-
+        
 
 
         feedHtml+=`<div class="tweet">
