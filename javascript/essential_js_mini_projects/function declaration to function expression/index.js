@@ -1,7 +1,4 @@
-/*
-Challenge:
-    1. Convert this function declaration to a function expression.
-*/
+
 
 // function getTheftAlert(numberOfTransactionsHour) {
 //     if (numberOfTransactionsHour > 5) {
