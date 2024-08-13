@@ -7,7 +7,6 @@ addBtn.addEventListener('click', function() {
     const newfilm = document.createElement ('div')
     newfilm.classList.add('film-item')
     newfilm.textContent = filmInput.value
-    filmList.appendChild()
-    filmInput.value = ''
-   
+    filmList.appendChild(newfilm)
+    filmInput.value = ''   
 }) 
