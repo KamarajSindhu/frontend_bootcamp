@@ -5,10 +5,16 @@
 // console.log(speedWarning(40))
 
 const speedWarning=(speedlimit,speed) => {
-
-    return `You are going at ${speed} mph!.The ${speedlimit} mph! should be drive limit`
+    if(speed>speedlimit){
+        return `You are going at ${speed} mph!.`
+    }
+    
+    else
+    {
+        return `HAPPY JOURNEY`
+    }
 
 }
-console.log(speedWarning(30,40))
+console.log(speedWarning(60,40))
 
 
