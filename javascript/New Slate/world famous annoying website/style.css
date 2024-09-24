@@ -71,7 +71,7 @@ main{
     left:0;
     right:0;
     margin: auto;
-    /* display: none; */
+    display: none;
     height: 420px;
     width: 350px;
     border-radius: 5px;
